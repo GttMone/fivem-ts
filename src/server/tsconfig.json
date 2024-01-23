@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
-        "types": ["@citizenfx/server", "@types/node"]
+        "types": ["@types/node", "@citizenfx/server"],
+        "lib": ["ES2017"]
     }
 }
