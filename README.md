@@ -1,0 +1,1 @@
+# A minimal FiveM resource, utilizing the TypeScript language.

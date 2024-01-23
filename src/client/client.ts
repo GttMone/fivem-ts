@@ -1,0 +1,1 @@
+declare const Config: any; // Allows access to the config.js file without importing
