@@ -1,10 +1,6 @@
 {
+    "extends": "../../tsconfig.json",
     "compilerOptions": {
-        "lib": ["ES2017"],
-        "esModuleInterop": true,
-        "forceConsistentCasingInFileNames": true,
-        "strict": true,
-        "skipLibCheck": true,
-        "types": ["@citizenfx/client", "../config.d.ts"],
+        "types": ["@citizenfx/client", "../config.d.ts"]
     }
 }
