@@ -6,15 +6,17 @@
     "url": "https://github.com/GttMone/fivem-ts"
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch"
+    "build": "concurrently \"tsc --noEmit\" \"node scripts/build.mjs\"",
+    "dev": "concurrently \"tsc --noEmit --watch\" \"node scripts/build.mjs --watch\""
   },
   "keywords": [],
   "author": "Vito | gttmone.site",
   "license": "ISC",
   "devDependencies": {
-    "@citizenfx/client": "^2.0.7345-1",
-    "@citizenfx/server": "^2.0.7345-1",
-    "@types/node": "^20.14.11"
+    "@citizenfx/client": "latest",
+    "@citizenfx/server": "latest",
+    "@types/node": "latest",
+    "concurrently": "^8.2.2",
+    "esbuild": "0.23.0"
   }
 }
