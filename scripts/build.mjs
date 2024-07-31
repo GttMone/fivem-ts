@@ -35,4 +35,4 @@ for (const envoirment of envoirments) {
     } else console.log(`Built envoirment ${envoirment} for production.`);
 }
 
-writeFile('.yarn.installed');
+writeFile('.yarn.installed', new Date().toISOString());
