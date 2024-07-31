@@ -6,7 +6,7 @@
     "url": "https://github.com/GttMone/fivem-ts"
   },
   "scripts": {
-    "build": "concurrently \"tsc --noEmit\" \"node scripts/build.mjs\"",
+    "build": "tsc --noEmit && node scripts/build.mjs",
     "dev": "concurrently \"tsc --noEmit --watch\" \"node scripts/build.mjs --watch\""
   },
   "keywords": [],
