@@ -1,4 +1,5 @@
 import esbuild from 'esbuild';
+import { writeFile } from 'node:fs/promises';
 
 const watch = process.argv.includes('--watch');
 const envoirments = ['client', 'server'];
@@ -33,3 +34,5 @@ for (const envoirment of envoirments) {
         console.log(`Running envoirment ${envoirment} in development mode. Watching for changes...`);
     } else console.log(`Built envoirment ${envoirment} for production.`);
 }
+
+writeFile('.yarn.installed');
