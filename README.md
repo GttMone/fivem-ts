@@ -1,1 +1,1 @@
-# A minimal FiveM resource, utilizing the TypeScript language.
+# An opinionated FiveM resource template for TypeScript with esbuild.
