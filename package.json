@@ -17,6 +17,6 @@
     "@citizenfx/server": "latest",
     "@types/node": "latest",
     "concurrently": "^8.2.2",
-    "esbuild": "0.23.0"
+    "esbuild": "0.21.3"
   }
 }
