@@ -2,6 +2,7 @@
   "name": "fivem-ts",
   "version": "1.0.0",
   "description": "FiveM TypeScript Template",
+  "type": "module",
   "repository": {
     "url": "https://github.com/GttMone/fivem-ts"
   },
