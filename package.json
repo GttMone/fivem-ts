@@ -17,7 +17,12 @@
     "@citizenfx/client": "latest",
     "@citizenfx/server": "latest",
     "@types/node": "latest",
-    "concurrently": "^8.2.2",
-    "esbuild": "0.23.0"
+    "concurrently": "latest",
+    "esbuild": "latest"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }

@@ -17,7 +17,6 @@ const server = {
     platform: 'node',
     target: ['node16'],
     format: 'cjs',
-    packages: 'external'
 }
 
 for (const envoirment of envoirments) {
@@ -25,7 +24,6 @@ for (const envoirment of envoirments) {
         entryPoints: [`./src/${envoirment}/${envoirment}.ts`],
         bundle: true,
         outdir: './dist',
-        minify: !watch,
         ...(envoirment === 'client' ? client : server)
     });
 
