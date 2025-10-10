@@ -1,1 +1,1 @@
-let Lang = {};
+const Lang = {};
