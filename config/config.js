@@ -1,1 +1,1 @@
-let Config = {};
+const Config = {};
